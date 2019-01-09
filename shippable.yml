@@ -5,15 +5,15 @@ runtime:
 
 # Version number
 node_js:
-  - 6.14 #.2 
-  - 8.11 #.2 
-  - 9.11 #.1 
+  - 6.14 #.3
+  - 8.11 #.3
+  - 9.11 #.2
   - 10.1 #.0
-  
+
 build:
   pre_ci_boot:
     image_name: drydock/u14nodall
-    image_tag: v6.5.4
+    image_tag: v6.6.4
     pull: true
     
   ci:
